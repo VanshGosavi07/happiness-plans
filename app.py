@@ -9,8 +9,8 @@ app = Flask(__name__)
 app.secret_key = 'happiness_plans_secret_key_2024'
 
 # Email configuration
-SENDER_EMAIL = "sukheshdasari@gmail.com"
-SENDER_PASSWORD = "drer ssxn yxuk xwlz"
+SENDER_EMAIL = os.getenv('SENDER_EMAIL', 'sukheshdasari@gmail.com')
+SENDER_PASSWORD = os.getenv('SENDER_PASSWORD', 'drer ssxn yxuk xwlz')
 SMTP_SERVER = "smtp.gmail.com"
 SMTP_PORT = 587
 

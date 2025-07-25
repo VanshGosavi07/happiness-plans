@@ -111,7 +111,7 @@ This project is configured for easy deployment on Vercel:
 - Vercel will automatically build and deploy your application
 - You'll get a live URL for your deployed website
 
-🔗 **Live Demo**: [Coming Soon - Deploy to see your live URL]
+🔗 **Live Demo**: [https://happiness-plans-red.vercel.app/](https://happiness-plans-red.vercel.app/)
 
 ---
 
@@ -121,11 +121,11 @@ The contact form uses **Gmail SMTP** for sending emails:
 
 - **SMTP Server**: `smtp.gmail.com`
 - **Port**: `587`
-- **From Address**: `sukheshdasari@gmail.com`
+- **Email Configuration**: Configured with secure Gmail App Password
 
 ### To customize email settings:
 1. Open `app.py`
-2. Update `SENDER_EMAIL` and `SENDER_PASSWORD` with your Gmail credentials
+2. Update the email configuration variables with your Gmail credentials
 3. Use Gmail [App Password](https://myaccount.google.com/apppasswords) for enhanced security
 4. For production deployment, consider using environment variables for sensitive data
 
@@ -188,7 +188,7 @@ The contact form uses **Gmail SMTP** for sending emails:
 ## 🌟 Live Demo & Repository
 
 🔗 **GitHub Repository**: [https://github.com/VanshGosavi07/happiness-plans](https://github.com/VanshGosavi07/happiness-plans)  
-🚀 **Live Website**: [Deploy to Vercel to get your live URL]
+🚀 **Live Website**: [https://happiness-plans-red.vercel.app/](https://happiness-plans-red.vercel.app/)
 
 ### Quick Deploy to Vercel:
 [![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https://github.com/VanshGosavi07/happiness-plans)
